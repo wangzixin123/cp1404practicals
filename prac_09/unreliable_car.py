@@ -15,7 +15,3 @@ class UnreliableCar(Car):
         reliability = random.randint(0, 100)
         if reliability < float(self.reliability):
             return super().drive(distance)
-
-
-
-
